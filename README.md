@@ -1,5 +1,5 @@
 # API
-
++ [Что такое API?](https://aws.amazon.com/ru/what-is/api/)
 + [Список из 100 сайтов с API документацией](https://starkovden.github.io/API-doc-sites-list.html#100-%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2-%D1%81-api-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B5%D0%B9)
 + [Test it — бесплатные тестовые площадки](http://testbase.ru/test-it)
 + [Список открытых API. public-apis](https://github.com/public-apis/public-apis)
