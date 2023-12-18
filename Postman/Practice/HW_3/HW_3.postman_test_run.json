@@ -1,0 +1,260 @@
+{
+	"id": "f10d1945-54dd-4f0c-9857-05053be9032a",
+	"name": "HW_3",
+	"timestamp": "2022-12-27T17:38:26.328Z",
+	"collection_id": "19115116-d92b18cc-1fb8-44b4-b801-283df217d9f0",
+	"folder_id": 0,
+	"environment_id": "19115116-da2f050f-fcf1-4ed6-9fe8-baec2cab81e0",
+	"totalPass": 20,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e8c7d288-af18-4c66-8da1-96def7e3a2d0",
+			"name": "/login",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				98
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "757758e5-f188-4615-8ef9-afaecfe41256",
+			"name": "/user_info",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 396,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"start_qa_salary = 1000": true,
+				"qa_salary_after_6_months *2 = 2000": true,
+				"qa_salary_after_12_months *2.9 = 2900": true,
+				"u_salary_1_5_year *4 = 4000": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"start_qa_salary = 1000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_6_months *2 = 2000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_12_months *2.9 = 2900": {
+					"pass": 1,
+					"fail": 0
+				},
+				"u_salary_1_5_year *4 = 4000": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				396
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"start_qa_salary = 1000": true,
+					"qa_salary_after_6_months *2 = 2000": true,
+					"qa_salary_after_12_months *2.9 = 2900": true,
+					"u_salary_1_5_year *4 = 4000": true
+				}
+			]
+		},
+		{
+			"id": "297677b6-49da-4222-a650-24eb27c55d04",
+			"name": "/new_data",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"resp salary[0] = req salary*1": true,
+				"resp salary[1] = req salary*2": true,
+				"resp salary[2] = req salary*3": true,
+				"resp salary[2] > resp salary[1] and > resp salary[0]": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp salary[0] = req salary*1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp salary[1] = req salary*2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp salary[2] = req salary*3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp salary[2] > resp salary[1] and > resp salary[0]": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"resp salary[0] = req salary*1": true,
+					"resp salary[1] = req salary*2": true,
+					"resp salary[2] = req salary*3": true,
+					"resp salary[2] > resp salary[1] and > resp salary[0]": true
+				}
+			]
+		},
+		{
+			"id": "7ae6035b-8e9c-4add-a7ba-b14c84eb3b29",
+			"name": "/test_pet_info",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 116,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"resp daily_food = req weight*0.012": true,
+				"resp daily_sleep = req weight*2.5": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp daily_food = req weight*0.012": {
+					"pass": 1,
+					"fail": 0
+				},
+				"resp daily_sleep = req weight*2.5": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				116
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"resp daily_food = req weight*0.012": true,
+					"resp daily_sleep = req weight*2.5": true
+				}
+			]
+		},
+		{
+			"id": "b0d21332-c728-4654-b141-e47802ae6bd1",
+			"name": "/get_test_user",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"value field name = value name variable from the environment": true,
+				"rsp value field age corresponds req value field age": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value field name = value name variable from the environment": {
+					"pass": 1,
+					"fail": 0
+				},
+				"rsp value field age corresponds req value field age": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"value field name = value name variable from the environment": true,
+					"rsp value field age corresponds req value field age": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 858,
+	"collection": {
+		"requests": [
+			{
+				"id": "e8c7d288-af18-4c66-8da1-96def7e3a2d0",
+				"method": "POST"
+			},
+			{
+				"id": "757758e5-f188-4615-8ef9-afaecfe41256",
+				"method": "POST"
+			},
+			{
+				"id": "297677b6-49da-4222-a650-24eb27c55d04",
+				"method": "POST"
+			},
+			{
+				"id": "7ae6035b-8e9c-4add-a7ba-b14c84eb3b29",
+				"method": "POST"
+			},
+			{
+				"id": "b0d21332-c728-4654-b141-e47802ae6bd1",
+				"method": "POST"
+			}
+		]
+	}
+}
