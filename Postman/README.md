@@ -20,4 +20,5 @@ Postman представляет собой мультитул для тести
 + [curl — учимся тестировать API](https://testengineer.ru/curl-uchimsya-testirovat-api/)
 + [Как выбрать инструмент для тестирования API](https://habr.com/ru/company/simbirsoft/blog/675878/)
 + [Эффективное использование Postman для тестирования RESTful API: от базовых запросов до автоматизации](https://habr.com/ru/articles/778002/)
++ [Postman: Основы тестирования API и первые шаги с инструментом](https://habr.com/ru/companies/vk/articles/750096/)
   
